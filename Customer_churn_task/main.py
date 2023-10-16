@@ -28,7 +28,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 
-data=pd.read_csv("Customer_churn_task/Churn_Modelling.csv")
+data=pd.read_csv("Churn_Modelling.csv")
 x=data.iloc[:,3:-1].values
 y=data.iloc[:,-1].values
 

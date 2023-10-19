@@ -115,7 +115,7 @@ display_stats(LR,"logistic regression")
 
 """#KNN"""
 
-KNN = KNeighborsClassifier(n_neighbors=19 , p=2)
+KNN = KNeighborsClassifier(n_neighbors=5 , p=2)
 KNN.fit(x_train,y_train)
 
 display_stats(KNN,"K nearest neighbors")
